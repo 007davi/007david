@@ -1,0 +1,174 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+#home{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;   
+    color: white;
+    background-image: linear-gradient( 90deg, #010003, #0A001A, #010003  );
+
+}
+
+#sidebar{
+    width: 100%;
+    height: 10%;
+    color: rgb(218, 24, 24);   
+    background-color: transparent;
+    backdrop-filter:none;
+    opacity: 70%;
+    position: relative;
+}
+
+#sidebar ul {
+   display: flex; 
+   /*  align-items: flex-end;
+    justify-content: flex-end;*/
+    width: 100%; 
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    
+}
+
+#sidebar li{
+    margin-right:5%;  
+}
+
+#bloco{
+    display: flex;
+    width:100%;
+    height: 100%;
+    flex-direction: column;     
+    flex: 1;
+    align-items: center;  
+
+}
+
+#content{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.txt{
+  margin-left: 20px;
+  border: 1px groove white;
+  
+}
+
+#content img{
+    height: 500px;
+    width: 500px;
+}
+
+#sobre{
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient( 90deg, #010003, #0A001A, #010003 );
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#sobre .txt{
+    height: 50%;
+    width: 60%; 
+}
+
+#skils{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient( 90deg, #010003, #0A001A, #010003 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#skils ul{
+    height: 70%;
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid white;
+}
+
+#skils li{
+    margin: 1%;
+    height: 100px;
+    width: 100px;
+}
+
+#skils img{
+    height: 60px;
+}
+
+#projet{
+    color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: linear-gradient( -90deg, #010003, #0A001A, #010003);
+    flex-direction: column;
+}
+
+#ptj{
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.pro{
+    margin: 5%;
+    height: 150px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#footer{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    background-color:#0B0612;
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none ;
+   
+}
+
+#footer li{
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+#ig, #emi, #link{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
